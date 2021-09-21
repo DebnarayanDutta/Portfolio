@@ -230,7 +230,10 @@ body {
 
 @media only screen and (max-width: 500px) {
   .indexdiv {
-    width: 90vw;
+    width: 95vw;
+  }
+  .sub-heading {
+    font-size: 1.5rem;
   }
   .header {
     font-size: 1rem;
@@ -252,5 +255,10 @@ body {
   }
   .project-heading {
     font-size: 2rem;
+  }
+  .navBtn {
+    font-size: 1rem;
+    margin: 0 0.2rem;
+    padding: 7px;
   }
 }
