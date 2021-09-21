@@ -1,0 +1,256 @@
+:root {
+  --primary-color: rgb(52, 51, 95);
+  --off-white: rgb(233, 233, 233);
+  --dark-gray: #3e4044;
+  --Grayish-blue: rgb(170, 208, 224);
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+hr {
+  margin: 2rem 0rem;
+}
+body {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+.indexdiv {
+  width: 75vw;
+  background-color: var(--off-white);
+  min-height: 100vh;
+}
+
+#projects-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#project {
+  width: 50%;
+  margin: 1.5rem 0;
+  text-align: left;
+}
+.home-intro {
+  text-align: center;
+  font-size: 1.3rem;
+}
+.sub-heading {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+.project-title {
+  font-size: 2rem;
+}
+.myblogs {
+  text-align: center;
+  font-size: larger;
+}
+.desc {
+  font-size: 1.2rem;
+  font-weight: bold;
+  font-family: monospace;
+  margin-top: 1rem;
+}
+
+/** container **/
+.container {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+/** links **/
+.links {
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+.primary-links {
+  background-color: var(--primary-color);
+  border-radius: 0.5rem;
+  color: blue;
+}
+
+.link-secondary {
+  color: var(--primary-color);
+  border-radius: 0.5rem;
+  border: 1px solid var(--primary-color);
+}
+
+.imgContainer {
+  text-align: center;
+}
+
+/** look into BEM naming convention for CSS **/
+
+/** lists **/
+
+.list-non-bullet {
+  list-style: none;
+}
+
+.list-item-inline {
+  padding: 0rem 0.5rem;
+  display: flex;
+  justify-content: center;
+  font-size: larger;
+  margin-top: 1rem;
+}
+
+/** navigation **/
+
+.navbar {
+  background-color: rgb(52, 51, 95);
+  padding: 20px;
+  text-align: center;
+}
+
+.navBtn {
+  border: none;
+  background: none;
+  background-color: var(--Grayish-blue);
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  font-family: "Times New Roman", Times, serif;
+  margin: 0 0.5rem;
+  cursor: pointer;
+}
+.navBtn:hover {
+  background-color: rgb(67, 102, 117);
+  color: white;
+}
+
+/** header **/
+
+.header {
+  text-align: center;
+  padding: 50px 0px;
+  font-size: xx-large;
+}
+
+.project-heading {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 3rem;
+}
+
+.stores {
+  font-weight: lighter;
+}
+
+.pro {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: larger;
+}
+.header p {
+  margin-right: -300px;
+}
+
+.hero {
+  padding: 2rem;
+}
+
+.hero .hero-img {
+  max-width: 350px;
+  display: block;
+  margin: auto;
+}
+
+.hero .hero-heading {
+  padding-top: 1rem;
+  color: var(--dark-gray);
+  text-align: center;
+}
+
+.hero .hero-heading .heading-inverted {
+  color: var(--primary-color);
+}
+
+/** sections **/
+
+.section {
+  align-items: center;
+}
+
+.btn {
+  display: flex;
+  border-radius: 6px;
+  font-size: 18px;
+  padding: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(12, 12, 59);
+  color: white;
+  cursor: pointer;
+}
+.btn.code {
+  background: none;
+  border: 1px solid rgb(12, 12, 59);
+  color: rgb(12, 12, 59);
+}
+
+.section h1 {
+  text-align: center;
+}
+
+.ow {
+  background-color: var(--off-white);
+}
+
+/** footers **/
+
+.footer {
+  background-color: var(--primary-color);
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+.footer .link {
+  color: white;
+}
+
+.blogdiv {
+  text-align: center;
+}
+.h1 {
+  margin-bottom: 1rem;
+  font-size: 2.5rem;
+}
+.laptops {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+@media only screen and (max-width: 500px) {
+  .indexdiv {
+    width: 90vw;
+  }
+  .header {
+    font-size: 1rem;
+  }
+  .header p {
+    margin-right: -100px;
+  }
+  .home-intro {
+    font-size: 1rem;
+  }
+  #project {
+    width: 80%;
+  }
+  .project-title {
+    font-size: 1.2rem;
+  }
+  .desc {
+    font-size: 1rem;
+  }
+  .project-heading {
+    font-size: 2rem;
+  }
+}

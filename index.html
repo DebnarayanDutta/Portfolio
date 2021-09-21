@@ -5,9 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="styles.css" rel="stylesheet"/>
+    <link href="./style.css" rel="stylesheet"/>
+    <script src="https://kit.fontawesome.com/6180fddcbb.js" crossorigin="anonymous"></script>
 </head>
 <body>
+<div class="indexdiv">
     <div class="navbar">
         <a href="./index.html"><button class="navBtn">Home</button></a>
         <a href="./Projects.html"><button class="navBtn">Projects</button></a>
@@ -17,51 +19,78 @@
         <h1>Deb Narayan Dutta</h1>
         <p>-web developer</p>
     </div>
-    <h2 class="project">I am from a mechanical background but my interest for web development had bought me here. </h2>
-
-    <div class="imgContainer">
-        <p>1st image</p>
-        <img src="https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y2FyfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"/>
-        <p>2nd image</p>
-        <img src="https://images.unsplash.com/photo-1526336024174-e58f5cdd8e13?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y2F0fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" class="image2"/>
-        
-    </div>
-
+    <p class="home-intro">I am from a mechanical background but my interest for web development had bought me here. </p>
     <hr>
 
     <section class="section">
         <div class="container container-center">
-        <h1>Technologies</h1>
-        <ul>
-            <li class="list-item-inline">JAVAscript</li>
-            <li class="list-item-inline">CSS</li>
-            <li class="list-item-inline">HTML5</li>
-        </ul>
+            <h2 class="sub-heading">Technologies</h2>
+            <ol>
+                <li class="list-item-inline"><i class="fab fa-js-square"></i> JAVAscript</li>
+                <li class="list-item-inline"><i class="fab fa-css3-alt"></i> CSS</li>
+                <li class="list-item-inline"><i class="fab fa-html5"></i> HTML5</li>
+                <li class="list-item-inline"><i class="fab fa-github-square"></i> GitHub</li>
+                <li class="list-item-inline"><i class="fab fa-react"></i> ReactJS</li>
+            </ol>
         </div> 
 
         <hr>
-        
-        <h2 class="project"> Projects</h2>
-
-        <ol class="pro">
-            <li style="text-align: center">milk 1</li>
-            <li style="text-align: center">eggs 2</li>
-            <li style="text-align: center">breads 3</li>
-        </ol>
-
-        <hr>
-
-        <h2 class=project> Blogs</h2>
-
-        <hr>
-        <div class="footer">
-            <h2 class=project> Footer</h2>
-            <button class="navBtn">linkedin</button>
-            <button class="navBtn">facebook</button>
-            <button class="navBtn">twitter</button>
+        <div class="container container-center">
+            <h2 class="sub-heading"> Projects</h2>
+            <ul class="pro">
+                <div id="project">
+                    <h2 class="project-title">Minion Talk</h2>
+                    <p>August 2021</p>
+                    <p class="desc">It translate's english language to minion language.</p>
+                    <a href="https://minion-talk-deb.netlify.app/" class="links"><button class="btn play">Play</button></a>
+                    <a href="https://github.com/DebnarayanDutta/Minion-Talk" class="links"><button class="btn code">Code</button></a>
+                </div>
+                <div id="project">
+                    <h2 class="project-title">Cash Register</h2>
+                    <p>August 2021</p>
+                    <p class="desc">It can calculate how much amount and the number of notes you have to return .</p>
+                    <a href="https://cash-register-deb.netlify.app/" class="links"><button class="btn play">Play</button></a>
+                    <a href="https://github.com/DebnarayanDutta/Cash-register" class="links"><button class="btn code">Code</button></a> 
+                </div>
+                <div id="project">
+                    <h2 class="project-title">Lucky Birthday</h2>
+                    <p>August 2021</p>
+                    <p class="desc">It let you see is you DOB is lucky or not?</p>
+                    <a href="https://lucky-birthday-deb.netlify.app/" class="links"><button class="btn play">Play</button></a>
+                    <a href="https://github.com/DebnarayanDutta/Lucky-Birthday" class="links"><button class="btn code">Code</button></a> 
+                </div>
+                <a href="./Projects.html"><p>Many more</p></a>
+            </ul>
         </div>
-        
-
-
+        <hr>
+        <div class="container container-center">
+            <h2 class=sub-heading> Blogs</h2>
+            <ul class="pro">
+                
+                <div id="project">
+                <h2 class="project-title">Positions in CSS</h2>
+                <p>September 2021</p>
+                <p class="desc">In this blog you can learn about different positioning of elements in web page</p>
+                <a href="https://debnarayan.hashnode.dev/positions-in-css" class="links"><button class="btn play">Read More</button></a>
+                
+            </div>
+            <div id="project">
+                <h2 class="project-title">Centering in CSS</h2>
+                <p>September 2021</p>
+                <p class="desc">In this blog you can learn about different ways of centering different elements in web page</p>
+                <a href="https://debnarayan.hashnode.dev/centering-in-css" class="links"><button class="btn play">Read More</button></a>
+                
+            </div>
+            </ul>
+        </div>
+         <hr>
+        <div class="footer">
+            <h2 class=footer> Let's connect with me</h2>
+            <a href="https://www.linkedin.com/in/debnarayan-dutta-5137a51b5/"><button class="navBtn"><i class="fab fa-linkedin"></i></button></a>
+            <a href="https://twitter.com/JackTheBoy4"><button class="navBtn"><i class="fab fa-twitter-square"></i></button></a>
+            <a href="https://github.com/DebnarayanDutta"><button class="navBtn"><i class="fab fa-github-square"></i></button></a>
+        </div>
+    </section>
+</div>
 </body>
 </html>
